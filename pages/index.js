@@ -11,9 +11,13 @@ export default function Home() {
           <Sidebar />
         </div>
         <div className="w-full">
-          <Banner />
-          <Body />
-          <Footer />
+          <div className="py-5 h-[90vh] md:h-[77vh]">
+            <Banner />
+            <Body />
+          </div>
+          <div>
+            <Footer />
+          </div>
         </div>
       </div>
     </>
